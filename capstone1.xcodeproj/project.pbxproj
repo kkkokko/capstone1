@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189233A09CB863E73FC474B5 /* Pods_capstone1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2202AD6018B5755FF1365DF0 /* Pods_capstone1.framework */; };
 		26D5BB7A225DC1780083F041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5BB79225DC1780083F041 /* AppDelegate.swift */; };
 		26D5BB7C225DC1780083F041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D5BB7B225DC1780083F041 /* ViewController.swift */; };
 		26D5BB7F225DC1780083F041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D5BB7D225DC1780083F041 /* Main.storyboard */; };
 		26D5BB81225DC17A0083F041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D5BB80225DC17A0083F041 /* Assets.xcassets */; };
 		26D5BB84225DC17A0083F041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D5BB82225DC17A0083F041 /* LaunchScreen.storyboard */; };
 		D77B0A26227FFCE000ED0CE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B0A25227FFCE000ED0CE8 /* GoogleService-Info.plist */; };
+		D7F15F4722801F65007AD173 /* Pods_capstone1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F4622801F65007AD173 /* Pods_capstone1.framework */; };
+		D7F15F4922801F73007AD173 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F4822801F73007AD173 /* LocalAuthentication.framework */; };
+		D7F15F4B22801F79007AD173 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F4A22801F79007AD173 /* SafariServices.framework */; };
+		D7F15F4D22801F80007AD173 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F4C22801F80007AD173 /* SystemConfiguration.framework */; };
+		D7F15F552280367B007AD173 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F542280367B007AD173 /* GoogleUtilities.framework */; };
+		D7F15F57228036A1007AD173 /* GoogleSignIn.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F56228036A1007AD173 /* GoogleSignIn.bundle */; };
+		D7F15F5A228036B5007AD173 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F59228036B5007AD173 /* GoogleSignInDependencies.framework */; };
+		D7F15F5B22803726007AD173 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F15F502280220F007AD173 /* GoogleSignIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,16 @@
 		55865828C4B3090F96ABCF04 /* Pods-capstone1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capstone1.debug.xcconfig"; path = "Target Support Files/Pods-capstone1/Pods-capstone1.debug.xcconfig"; sourceTree = "<group>"; };
 		C36767898345E9EF81C0101D /* Pods-capstone1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-capstone1.release.xcconfig"; path = "Target Support Files/Pods-capstone1/Pods-capstone1.release.xcconfig"; sourceTree = "<group>"; };
 		D77B0A25227FFCE000ED0CE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7F15F4422801F4D007AD173 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F15F4622801F65007AD173 /* Pods_capstone1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_capstone1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F15F4822801F73007AD173 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		D7F15F4A22801F79007AD173 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		D7F15F4C22801F80007AD173 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D7F15F4E228021F9007AD173 /* google_signin_sdk_4_4_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = google_signin_sdk_4_4_0; sourceTree = "<group>"; };
+		D7F15F502280220F007AD173 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = google_signin_sdk_4_4_0/GoogleSignIn.framework; sourceTree = "<group>"; };
+		D7F15F542280367B007AD173 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F15F56228036A1007AD173 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleSignIn.bundle; path = google_signin_sdk_4_4_0/GoogleSignIn.bundle; sourceTree = "<group>"; };
+		D7F15F59228036B5007AD173 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignInDependencies.framework; path = google_signin_sdk_4_4_0/GoogleSignInDependencies.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +52,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				189233A09CB863E73FC474B5 /* Pods_capstone1.framework in Frameworks */,
+				D7F15F5B22803726007AD173 /* GoogleSignIn.framework in Frameworks */,
+				D7F15F5A228036B5007AD173 /* GoogleSignInDependencies.framework in Frameworks */,
+				D7F15F57228036A1007AD173 /* GoogleSignIn.bundle in Frameworks */,
+				D7F15F552280367B007AD173 /* GoogleUtilities.framework in Frameworks */,
+				D7F15F4D22801F80007AD173 /* SystemConfiguration.framework in Frameworks */,
+				D7F15F4B22801F79007AD173 /* SafariServices.framework in Frameworks */,
+				D7F15F4922801F73007AD173 /* LocalAuthentication.framework in Frameworks */,
+				D7F15F4722801F65007AD173 /* Pods_capstone1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +104,22 @@
 				55865828C4B3090F96ABCF04 /* Pods-capstone1.debug.xcconfig */,
 				C36767898345E9EF81C0101D /* Pods-capstone1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		C144EFB0B4352CA908A92DE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7F15F59228036B5007AD173 /* GoogleSignInDependencies.framework */,
+				D7F15F56228036A1007AD173 /* GoogleSignIn.bundle */,
+				D7F15F542280367B007AD173 /* GoogleUtilities.framework */,
+				D7F15F502280220F007AD173 /* GoogleSignIn.framework */,
+				D7F15F4E228021F9007AD173 /* google_signin_sdk_4_4_0 */,
+				D7F15F4C22801F80007AD173 /* SystemConfiguration.framework */,
+				D7F15F4A22801F79007AD173 /* SafariServices.framework */,
+				D7F15F4822801F73007AD173 /* LocalAuthentication.framework */,
+				D7F15F4622801F65007AD173 /* Pods_capstone1.framework */,
+				D7F15F4422801F4D007AD173 /* GoogleUtilities.framework */,
 				2202AD6018B5755FF1365DF0 /* Pods_capstone1.framework */,
 			);
 			name = Frameworks;
@@ -365,10 +398,47 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/google_signin_sdk_4_4_0",
+				);
 				INFOPLIST_FILE = capstone1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"nanopb\"",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cscp2.student.capstone1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -384,10 +454,47 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3Z2Z567H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/google_signin_sdk_4_4_0",
+				);
 				INFOPLIST_FILE = capstone1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"nanopb\"",
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.sogang.cscp2.student.capstone1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
